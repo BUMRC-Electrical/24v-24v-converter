@@ -4,7 +4,7 @@
     <img src="/img/mrc.jpeg" width="200">
 </div>
 
-#24V-24V 35 Amp Converter
+## 24V-24V 35 Amp Converter
 
 This repository contains all documentation and files for the custom 24V Converter.
 
