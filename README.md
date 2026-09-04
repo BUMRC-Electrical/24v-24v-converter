@@ -14,3 +14,4 @@ This repository contains all documentation and files for the custom 24V Converte
 - ```/datasheets/``` contains all of the .pdf files for the important components
 - ```/calculations/``` contains significant calculations that led to a component choice or value choice
 - ```/cad/``` currently contains no files
+- ```24V_BOM.xlsx``` contains all components, quantities, and links to purchase
