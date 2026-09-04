@@ -1,7 +1,5 @@
 # DERIVED FROM https://github.com/github/gitignore/blob/main/KiCad.gitignore
 
-.DS_Store
-
 ----------------------------------------------------------------------------------------------
 
 # For PCBs designed using KiCad: https://www.kicad.org/
