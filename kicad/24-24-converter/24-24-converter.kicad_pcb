@@ -6968,7 +6968,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "696d1acf-008f-4ba9-8984-a9cd1672237e")
-		(at 182.55 56.515 180)
+		(at 183 56.5)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
@@ -7040,16 +7040,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.727064 0.91)
-			(end 0.727064 0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9da8c362-53db-4f93-a7df-f38a109b2f6d")
-		)
-		(fp_line
 			(start -0.727064 -0.91)
 			(end 0.727064 -0.91)
 			(stroke
@@ -7058,6 +7048,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "a222b65a-352f-4395-846b-2f5919ff71b8")
+		)
+		(fp_line
+			(start -0.727064 0.91)
+			(end 0.727064 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9da8c362-53db-4f93-a7df-f38a109b2f6d")
 		)
 		(fp_rect
 			(start -2.45 -1.13)
@@ -7093,7 +7093,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.55 0 180)
+			(at -1.55 0)
 			(size 1.3 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
@@ -7102,7 +7102,7 @@
 			(uuid "479461b3-e0b3-4185-982d-e377002ca326")
 		)
 		(pad "2" smd roundrect
-			(at 1.55 0 180)
+			(at 1.55 0)
 			(size 1.3 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
@@ -28814,6 +28814,14 @@
 		(uuid "507a9e8a-e2c0-4fac-8c10-2aaed86191f2")
 	)
 	(segment
+		(start 181.45 58.774744)
+		(end 181.45 56.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "VOUT")
+		(uuid "512eebab-5a22-459a-9956-c8f510b1f4f6")
+	)
+	(segment
 		(start 169.545 82.7825)
 		(end 169.545 80.636)
 		(width 0.2)
@@ -28918,14 +28926,6 @@
 		(uuid "785de2a0-e4a8-466a-a015-3bb3cb20f3be")
 	)
 	(segment
-		(start 182.585 55)
-		(end 179.5 55)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "VOUT")
-		(uuid "7d9bed75-7951-44b0-a45d-622913fe032b")
-	)
-	(segment
 		(start 172.085 87.2275)
 		(end 175 87.2275)
 		(width 0.2)
@@ -28940,14 +28940,6 @@
 		(layer "F.Cu")
 		(net "VOUT")
 		(uuid "81227306-c45e-4621-8d41-57de801e48b2")
-	)
-	(segment
-		(start 179.5 56.824744)
-		(end 194.640256 71.965)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "VOUT")
-		(uuid "84682e32-5cfb-4758-8cdf-d88f16efeb3f")
 	)
 	(segment
 		(start 161.925 82.7825)
@@ -28998,14 +28990,6 @@
 		(uuid "9dd54160-628d-43ff-843f-dbec8e741303")
 	)
 	(segment
-		(start 184.1 56.515)
-		(end 182.585 55)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "VOUT")
-		(uuid "9f803d6e-a2bc-44b0-bc5f-d181f1acd925")
-	)
-	(segment
 		(start 161.925 82.7825)
 		(end 161.925 80.636)
 		(width 0.2)
@@ -29020,14 +29004,6 @@
 		(layer "F.Cu")
 		(net "VOUT")
 		(uuid "a8216d6c-962c-4a15-9465-e1445646cdb8")
-	)
-	(segment
-		(start 179.5 55)
-		(end 179.5 56.824744)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "VOUT")
-		(uuid "b7758983-87bb-4cdb-a17f-794fab6054ff")
 	)
 	(segment
 		(start 152.5 87)
@@ -29076,6 +29052,14 @@
 		(layer "F.Cu")
 		(net "VOUT")
 		(uuid "c8904218-dda9-4ab1-8e73-d4e690e3e432")
+	)
+	(segment
+		(start 194.640256 71.965)
+		(end 181.45 58.774744)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "VOUT")
+		(uuid "cacf101a-b00c-4a3f-8f72-813183809590")
 	)
 	(segment
 		(start 175 87.2275)
@@ -30574,28 +30558,20 @@
 		(uuid "fab5e10e-e27d-4a99-8372-e9221031cd8e")
 	)
 	(segment
-		(start 186.04 58)
-		(end 187.525 56.515)
+		(start 187.525 56.515)
+		(end 184.565 56.515)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(D3-A)")
-		(uuid "4a03eb48-25bb-421a-af3f-badab15b2b22")
+		(uuid "c177034a-0606-420a-a00d-7170fc81f48a")
 	)
 	(segment
-		(start 181 56.515)
-		(end 182.485 58)
+		(start 184.565 56.515)
+		(end 184.55 56.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(D3-A)")
-		(uuid "8cc75eed-6523-4590-a430-f47cb681b9d4")
-	)
-	(segment
-		(start 182.485 58)
-		(end 186.04 58)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(D3-A)")
-		(uuid "fad514ed-33c0-4a5c-9675-234102cc979a")
+		(uuid "d8740dec-2993-4d03-aae4-e12b492a014d")
 	)
 	(segment
 		(start 146.685 78.9669)
