@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.2032,
-          "height": 0.499999,
-          "width": 0.499999
+          "drill": 0.0,
+          "height": 3.15,
+          "width": 12.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -55,11 +55,11 @@
           "corner_radius": 0.75,
           "corner_smoothing": 1,
           "fill_mode": 0,
-          "hatch_gap": 1.5,
+          "hatch_gap": 2.54,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
-          "hatch_thickness": 1.0,
+          "hatch_thickness": 2.54,
           "min_clearance": 0.254,
           "min_island_area": 9.9999993548,
           "min_thickness": 0.254,
