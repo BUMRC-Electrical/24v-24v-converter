@@ -6324,12 +6324,6 @@
 		(uuid "436abad5-248e-47c0-ae2c-efa34b6519ed")
 	)
 	(junction
-		(at 69.85 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a4da6fb-717e-4c85-b7c6-79d8219373ce")
-	)
-	(junction
 		(at 49.53 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6378,6 +6372,12 @@
 		(uuid "5c956409-723b-4d26-a949-97738b0234f0")
 	)
 	(junction
+		(at 69.85 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d1d7c09-02ed-40ea-aeaf-5cc73803d593")
+	)
+	(junction
 		(at 151.13 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6390,10 +6390,22 @@
 		(uuid "64307d74-d23e-4643-9a51-9d7220b35f6b")
 	)
 	(junction
+		(at 57.15 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67ee4ea5-7940-494b-a4ea-e62ab78a9f2d")
+	)
+	(junction
 		(at 160.02 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "683c8ade-7eef-464f-9f63-3bd46d3a78aa")
+	)
+	(junction
+		(at 78.74 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6adf17df-0755-45e9-ac06-915eb984a0c8")
 	)
 	(junction
 		(at 95.25 53.34)
@@ -6492,12 +6504,6 @@
 		(uuid "90557398-30f9-4f54-b3fe-814406197954")
 	)
 	(junction
-		(at 64.77 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a638bc9-36f5-4d47-8378-171cc6fcbd46")
-	)
-	(junction
 		(at 49.53 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6534,16 +6540,16 @@
 		(uuid "a9458ea8-d3cc-4852-8923-c6193b2473eb")
 	)
 	(junction
-		(at 57.15 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac728aa1-d547-4861-a0e5-eb8122dc1039")
-	)
-	(junction
 		(at 151.13 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b091af69-8f44-41e5-a362-e5118b8fa814")
+	)
+	(junction
+		(at 69.85 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b59ca38c-60ac-41a4-96a9-9dbe45e967da")
 	)
 	(junction
 		(at 143.51 149.86)
@@ -6640,12 +6646,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d638287a-8f15-4415-a996-3b8c25227663")
-	)
-	(junction
-		(at 57.15 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9408764-b19d-4f1b-a015-45f474253af0")
 	)
 	(junction
 		(at 59.69 50.8)
@@ -6768,6 +6768,16 @@
 			(type default)
 		)
 		(uuid "03dd3eff-2537-4ee0-a39c-7785b83ad709")
+	)
+	(wire
+		(pts
+			(xy 48.26 22.86) (xy 48.26 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04679720-4fec-471a-a5f3-db1ba5633f0f")
 	)
 	(wire
 		(pts
@@ -7021,16 +7031,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 87.63) (xy 64.77 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f81da22-78d0-4e31-a738-475307769bf4")
-	)
-	(wire
-		(pts
 			(xy 170.18 24.13) (xy 170.18 25.4)
 		)
 		(stroke
@@ -7261,7 +7261,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 29.21) (xy 43.18 29.21)
+			(xy 36.83 29.21) (xy 48.26 29.21)
 		)
 		(stroke
 			(width 0)
@@ -7781,6 +7781,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 50.8) (xy 78.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753a93a6-13d3-4193-a72c-b0a0b2c81a11")
+	)
+	(wire
+		(pts
 			(xy 151.13 34.29) (xy 161.29 34.29)
 		)
 		(stroke
@@ -7911,6 +7921,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 66.04) (xy 69.85 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff7711c-9ba1-4927-85c4-ac2ed87e479e")
+	)
+	(wire
+		(pts
 			(xy 95.25 81.28) (xy 104.14 81.28)
 		)
 		(stroke
@@ -7938,16 +7958,6 @@
 			(type default)
 		)
 		(uuid "82ce69d9-2f48-4b36-8c5b-5442b333aa35")
-	)
-	(wire
-		(pts
-			(xy 57.15 76.2) (xy 64.77 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83241f82-2f24-42d2-8450-d695b99b12cb")
 	)
 	(wire
 		(pts
@@ -8078,6 +8088,16 @@
 			(type default)
 		)
 		(uuid "94fd3d09-6eac-4970-91a4-91005d33cb47")
+	)
+	(wire
+		(pts
+			(xy 78.74 50.8) (xy 78.74 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b5f4ee-31fd-4d68-aa96-01fea74933fd")
 	)
 	(wire
 		(pts
@@ -8461,16 +8481,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 76.2) (xy 64.77 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5192271-4266-44a9-bca7-69dd6bfa483a")
-	)
-	(wire
-		(pts
 			(xy 17.78 66.04) (xy 29.21 66.04)
 		)
 		(stroke
@@ -8488,16 +8498,6 @@
 			(type default)
 		)
 		(uuid "c8512de8-e3d2-469f-8098-efe9a150ac8a")
-	)
-	(wire
-		(pts
-			(xy 57.15 91.44) (xy 64.77 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8f4eb69-916a-4cb0-9b19-75b749e52e78")
 	)
 	(wire
 		(pts
@@ -8928,6 +8928,16 @@
 			(type default)
 		)
 		(uuid "f332038a-9860-48fd-aa58-b303d4410ffb")
+	)
+	(wire
+		(pts
+			(xy 78.74 62.23) (xy 78.74 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f620b6d0-4a0d-4eb2-ac46-3da795f4a264")
 	)
 	(wire
 		(pts
@@ -9517,7 +9527,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04bda30a-9cad-4d92-8d0d-0cc401e440b6")
-		(property "Reference" "Coutx2_3"
+		(property "Reference" "C27"
 			(at 179.324 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9629,7 +9639,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Coutx2_3")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -9853,7 +9863,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "086eccd6-2a95-46ca-a337-e73ec28d45be")
-		(property "Reference" "Coutx2_4"
+		(property "Reference" "C28"
 			(at 189.738 99.568 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9965,7 +9975,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Coutx2_4")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -10644,7 +10654,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17df4ee0-629b-4627-8a85-3a4ef784b6cb")
-		(property "Reference" "Coutx1"
+		(property "Reference" "C8"
 			(at 151.384 64.262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10756,7 +10766,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Coutx1")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10902,7 +10912,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22d511b7-7e33-4411-8d4c-43410648eee4")
-		(property "Reference" "Coutx_1"
+		(property "Reference" "C9"
 			(at 160.274 64.262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11014,7 +11024,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Coutx_1")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11031,7 +11041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25ab4825-3116-4fac-9880-28810dfc8578")
-		(property "Reference" "Coutx_4"
+		(property "Reference" "C12"
 			(at 186.944 64.262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11143,7 +11153,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Coutx_4")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -11572,7 +11582,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34b9e6ac-7a0a-4648-a3bb-f3d5241b76da")
-		(property "Reference" "Cbulk_5"
+		(property "Reference" "C5"
 			(at 60.452 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11684,7 +11694,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Cbulk_5")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -11701,7 +11711,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3593ff2c-da34-4ee1-b17d-fd93b5d226e9")
-		(property "Reference" "Coutx2_2"
+		(property "Reference" "C26"
 			(at 169.164 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11813,7 +11823,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Coutx2_2")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -11821,7 +11831,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 66.04 0)
+		(at 78.74 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11831,7 +11841,7 @@
 		(dnp no)
 		(uuid "36c7f538-32ca-447b-80eb-cc50c5ee892f")
 		(property "Reference" "#PWR09"
-			(at 69.85 72.39 0)
+			(at 78.74 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11842,7 +11852,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.168 67.056 0)
+			(at 83.058 67.056 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11852,7 +11862,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 66.04 0)
+			(at 78.74 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11863,7 +11873,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 66.04 0)
+			(at 78.74 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11874,7 +11884,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 66.04 0)
+			(at 78.74 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12400,7 +12410,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4391c53e-6560-44ff-aa00-6dd4086ee36c")
-		(property "Reference" "Coutx_2"
+		(property "Reference" "C10"
 			(at 169.164 64.262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12512,7 +12522,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Coutx_2")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -12529,7 +12539,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4bd0c5f7-c547-4e8c-ac9e-577132a96052")
-		(property "Reference" "Coutx2"
+		(property "Reference" "C19"
 			(at 151.384 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12641,7 +12651,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Coutx2")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -13113,7 +13123,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55b359d8-0636-460f-b2c4-1a75ec178564")
-		(property "Reference" "Coutx3"
+		(property "Reference" "C24"
 			(at 151.384 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13225,7 +13235,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Coutx3")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -13243,7 +13253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57be4ece-6121-4a63-bfc1-b2ce4a864a33")
-		(property "Reference" "Ccomp2"
+		(property "Reference" "C34"
 			(at 65.532 158.242 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13355,136 +13365,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Ccomp2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 64.77 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "593452dc-c513-4363-8475-ebf4fef77747")
-		(property "Reference" "Cin_5"
-			(at 65.024 80.518 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "50SVPF39M"
-			(at 64.77 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "24V_Converter:Cin_50SVPF39M"
-			(at 64.77 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 64.77 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PACKAGEREFERENCE" "50SVPF39M"
-			(at 68.072 81.534 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "50SVPF39M"
-			(at -271.78 369.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER NAME" "Panasonic"
-			(at -271.78 369.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "39uF"
-			(at 65.532 87.884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "c4ebc1b8-6828-471b-a2d0-4d2184976a47")
-		)
-		(pin "2"
-			(uuid "ec5de88b-1ad7-4dd0-a274-6966ddf20564")
-		)
-		(instances
-			(project "24-24-converter"
-				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Cin_5")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -13707,7 +13588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c460124-1a66-449f-be19-17346d6e31a8")
-		(property "Reference" "Coutx3_3"
+		(property "Reference" "C22"
 			(at 180.594 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13819,7 +13700,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Coutx3_3")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -14959,6 +14840,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 53.34 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74adc97f-b43c-4d9e-b4f3-1457df736c70")
+		(property "Reference" "J3"
+			(at 55.88 20.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Enable"
+			(at 55.88 22.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+			(at 53.34 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7d8c4969-e02c-4994-b149-a380b7838946")
+		)
+		(pin "1"
+			(uuid "2c70bd35-5279-491c-b8cf-4bdabd7d419b")
+		)
+		(instances
+			(project "24-24-converter"
+				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 161.29 134.62 0)
 		(unit 1)
@@ -15098,7 +15061,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ae157d9-b315-4b3c-b414-69b8e972a5e5")
-		(property "Reference" "Coutx_3"
+		(property "Reference" "C11"
 			(at 178.054 64.262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15210,7 +15173,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Coutx_3")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -15423,6 +15386,135 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 17.78 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8199a9f7-4465-4716-aae7-d58160c09ed8")
+		(property "Reference" "C13"
+			(at 18.034 80.518 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "50SVPF39M"
+			(at 17.78 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "24V_Converter:Cin_50SVPF39M"
+			(at 17.78 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 17.78 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGEREFERENCE" "50SVPF39M"
+			(at 21.082 81.534 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "50SVPF39M"
+			(at -318.77 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER NAME" "Panasonic"
+			(at -318.77 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "39uF"
+			(at 18.542 87.884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "3c922838-6148-4b93-be17-97a372b82d96")
+		)
+		(pin "2"
+			(uuid "3fb9151c-fefe-4b95-b3c8-adc700244b82")
+		)
+		(instances
+			(project "24-24-converter"
+				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+28V")
 		(at 17.78 76.2 0)
 		(unit 1)
@@ -15510,7 +15602,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8329f84e-7525-4898-bfae-83a8430ec89b")
-		(property "Reference" "Cbulk_1"
+		(property "Reference" "C1"
 			(at 18.542 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15622,7 +15714,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Cbulk_1")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -15716,7 +15808,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84976989-2d0e-4c12-8723-fcf3009c9271")
-		(property "Reference" "Cbulk_2"
+		(property "Reference" "C2"
 			(at 30.48 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15828,7 +15920,136 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Cbulk_2")
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 78.74 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8917993c-1158-4a4d-a351-e66913f86c26")
+		(property "Reference" "C7"
+			(at 78.994 55.118 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "50SVPF10M"
+			(at 78.74 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "24V_Converter:Cbulk_CAP_B6-SVPK_PAN"
+			(at 78.74 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 78.74 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGEREFERENCE" "50SVPF10M"
+			(at 82.042 56.134 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "50SVPF10M"
+			(at -35.56 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER NAME" "Panasonic"
+			(at -35.56 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "10uF"
+			(at 79.502 62.484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "4df68d79-41a5-48df-b624-c0a0e0a8e17d")
+		)
+		(pin "2"
+			(uuid "c1a93421-ba9f-4abf-9485-07c7474c3aff")
+		)
+		(instances
+			(project "24-24-converter"
+				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -16051,7 +16272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93b96901-ca6d-4ec0-960b-d443881a9192")
-		(property "Reference" "Cin_2"
+		(property "Reference" "C16"
 			(at 42.164 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16163,7 +16384,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Cin_2")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -16333,7 +16554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a4c4df5-5655-4029-a6d9-610712b87def")
-		(property "Reference" "Cin_4"
+		(property "Reference" "C18"
 			(at 57.404 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16445,7 +16666,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Cin_4")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -16538,7 +16759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9eef2ad9-e792-4ce1-8496-10c7bb610129")
-		(property "Reference" "Coutx3_4"
+		(property "Reference" "C23"
 			(at 190.754 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16650,7 +16871,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Coutx3_4")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -16668,7 +16889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0870107-741b-4aef-92ef-af7983b642ce")
-		(property "Reference" "Ccomp1"
+		(property "Reference" "C32"
 			(at 38.862 158.242 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16780,7 +17001,84 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Ccomp1")
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+28V")
+		(at 48.26 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2456289-cc2a-42fc-918e-4d982691e606")
+		(property "Reference" "#PWR035"
+			(at 48.26 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Enable"
+			(at 52.324 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+28V\""
+			(at 48.26 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "546401df-7c26-4f93-af40-f524737118b3")
+		)
+		(instances
+			(project "24-24-converter"
+				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -17078,7 +17376,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a806c130-5824-41bd-9eab-589004d0eab6")
-		(property "Reference" "Cin_3"
+		(property "Reference" "C17"
 			(at 49.784 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17190,7 +17488,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Cin_3")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -17413,7 +17711,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3ca1bf5-d5ca-4f9b-a638-3e619e41898c")
-		(property "Reference" "Cbulk_4"
+		(property "Reference" "C4"
 			(at 50.546 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17525,7 +17823,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Cbulk_4")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -17542,7 +17840,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b52568a5-b2b1-42d7-a4a2-de4efe0e4916")
-		(property "Reference" "Cout_2"
+		(property "Reference" "C31"
 			(at 162.306 26.162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17654,7 +17952,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Cout_2")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -17748,7 +18046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9020580-5847-4226-92e7-53d7116057aa")
-		(property "Reference" "Coutx3_2"
+		(property "Reference" "C21"
 			(at 170.434 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17860,7 +18158,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Coutx3_2")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -17955,7 +18253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9ca065f-8b19-4e5e-bdd2-b8eefabf4e32")
-		(property "Reference" "Coutx2_1"
+		(property "Reference" "C25"
 			(at 159.004 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18067,7 +18365,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Coutx2_1")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -18213,7 +18511,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf86d42e-f591-4eb2-b010-f36efba9e9a1")
-		(property "Reference" "Coutx3_1"
+		(property "Reference" "C20"
 			(at 160.274 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18325,7 +18623,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Coutx3_1")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -18886,7 +19184,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d75fa7df-b473-4c5d-85b7-2996618507af")
-		(property "Reference" "Cin1"
+		(property "Reference" "C14"
 			(at 26.924 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18998,7 +19296,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Cin1")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -19093,7 +19391,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc1d9f73-87b0-4d2a-b2b1-7381f822497a")
-		(property "Reference" "Ccomp_1"
+		(property "Reference" "C33"
 			(at 52.832 158.242 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19205,7 +19503,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Ccomp_1")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -19501,7 +19799,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 91.44 0)
+		(at 57.15 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19511,7 +19809,7 @@
 		(dnp no)
 		(uuid "def28989-a25b-46c8-be14-f917e0b7bf9d")
 		(property "Reference" "#PWR06"
-			(at 64.77 97.79 0)
+			(at 57.15 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19522,7 +19820,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.088 92.456 0)
+			(at 61.468 92.456 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19532,7 +19830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 91.44 0)
+			(at 57.15 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19543,7 +19841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 91.44 0)
+			(at 57.15 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19554,7 +19852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 91.44 0)
+			(at 57.15 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19967,7 +20265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e445dde1-4c93-4140-8d8b-09279975bceb")
-		(property "Reference" "Cout1"
+		(property "Reference" "C29"
 			(at 143.256 26.162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20079,7 +20377,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Cout1")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -20173,7 +20471,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8d6a768-0a55-421a-b8be-98410dee86ad")
-		(property "Reference" "Cbulk_3"
+		(property "Reference" "C3"
 			(at 40.132 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20285,7 +20583,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Cbulk_3")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -20302,7 +20600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea81bc48-adac-44d2-aa24-5aace5034c6c")
-		(property "Reference" "Cout_1"
+		(property "Reference" "C30"
 			(at 152.146 26.162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20414,7 +20712,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Cout_1")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -20766,7 +21064,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee2d7a1d-2c85-4c79-907f-10846e7ea642")
-		(property "Reference" "Cbulk_6"
+		(property "Reference" "C6"
 			(at 70.866 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20878,7 +21176,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Cbulk_6")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -20963,135 +21261,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 17.78 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "faa64efe-277e-4dc3-8f76-85650a3119a5")
-		(property "Reference" "Cbulk1"
-			(at 18.034 80.518 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "50SVPF10M"
-			(at 17.78 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "24V_Converter:Cbulk_CAP_B6-SVPK_PAN"
-			(at 17.78 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 17.78 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 17.78 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PACKAGEREFERENCE" "50SVPF10M"
-			(at 21.082 81.534 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "50SVPF10M"
-			(at -96.52 369.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER NAME" "Panasonic"
-			(at -96.52 369.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "10uF"
-			(at 18.542 87.884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "752cfe66-3072-4241-ab66-2a7f12209dd2")
-		)
-		(pin "2"
-			(uuid "041ad32a-06e2-4f51-89da-1c3f1c21d8bb")
-		)
-		(instances
-			(project "24-24-converter"
-				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Cbulk1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
 		(at 34.29 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -21101,7 +21270,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc853a28-b6b9-40e0-8a3a-76ce6a767d3c")
-		(property "Reference" "Cin_1"
+		(property "Reference" "C15"
 			(at 34.544 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21213,7 +21382,7 @@
 		(instances
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "Cin_1")
+					(reference "C15")
 					(unit 1)
 				)
 			)
