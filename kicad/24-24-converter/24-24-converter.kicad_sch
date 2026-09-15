@@ -6588,12 +6588,6 @@
 		(uuid "c183679a-eb82-47af-aa43-86105f1ebea1")
 	)
 	(junction
-		(at 36.83 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c27f7027-b9d6-4b08-b2ea-d4c061467975")
-	)
-	(junction
 		(at 34.29 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6714,6 +6708,12 @@
 		(uuid "f5992ebf-d446-48ea-8539-48b7e5d841dc")
 	)
 	(junction
+		(at 36.83 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9b9fa98-a5af-4e3b-8e97-fe01eb23ac7e")
+	)
+	(junction
 		(at 49.53 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6768,16 +6768,6 @@
 			(type default)
 		)
 		(uuid "03dd3eff-2537-4ee0-a39c-7785b83ad709")
-	)
-	(wire
-		(pts
-			(xy 48.26 22.86) (xy 48.26 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04679720-4fec-471a-a5f3-db1ba5633f0f")
 	)
 	(wire
 		(pts
@@ -7258,16 +7248,6 @@
 			(type default)
 		)
 		(uuid "384150fd-a62d-419d-87a9-f72769aa07e8")
-	)
-	(wire
-		(pts
-			(xy 36.83 29.21) (xy 48.26 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b092454-b813-49b8-8f7d-47c3cfa8a51b")
 	)
 	(wire
 		(pts
@@ -8161,6 +8141,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 29.21) (xy 46.99 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a30aa047-c5c5-4ee4-9429-b46c946a963b")
+	)
+	(wire
+		(pts
 			(xy 151.13 63.5) (xy 151.13 58.42)
 		)
 		(stroke
@@ -8448,6 +8438,26 @@
 			(type default)
 		)
 		(uuid "bdc66067-54ef-4146-9d62-fa95f1a3df69")
+	)
+	(wire
+		(pts
+			(xy 36.83 29.21) (xy 36.83 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be5fd3f4-3ab3-4c73-9cac-e7951b6fcf9c")
+	)
+	(wire
+		(pts
+			(xy 46.99 31.75) (xy 46.99 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea6c491-c412-4eae-9bd4-941fe200d059")
 	)
 	(wire
 		(pts
@@ -8948,16 +8958,6 @@
 			(type default)
 		)
 		(uuid "f6267559-868d-4ad9-b6bb-73d79cad60a6")
-	)
-	(wire
-		(pts
-			(xy 36.83 29.21) (xy 36.83 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f64d1b80-502b-4bf2-85b1-c0f95798df71")
 	)
 	(wire
 		(pts
@@ -14841,7 +14841,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 53.34 20.32 0)
+		(at 52.07 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14852,7 +14852,7 @@
 		(fields_autoplaced yes)
 		(uuid "74adc97f-b43c-4d9e-b4f3-1457df736c70")
 		(property "Reference" "J3"
-			(at 55.88 20.3199 0)
+			(at 54.61 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14863,7 +14863,7 @@
 			)
 		)
 		(property "Value" "Enable"
-			(at 55.88 22.8599 0)
+			(at 54.61 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14873,8 +14873,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 53.34 20.32 0)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+			(at 52.07 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14885,7 +14885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 20.32 0)
+			(at 52.07 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14896,7 +14896,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 53.34 20.32 0)
+			(at 52.07 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17008,83 +17008,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+28V")
-		(at 48.26 20.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a2456289-cc2a-42fc-918e-4d982691e606")
-		(property "Reference" "#PWR035"
-			(at 48.26 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Enable"
-			(at 52.324 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+28V\""
-			(at 48.26 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "546401df-7c26-4f93-af40-f524737118b3")
-		)
-		(instances
-			(project "24-24-converter"
-				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "root_0_M3_TI WEBENCH_2")
 		(lib_id "TI WEBENCH:root_0_M3_TI WEBENCH")
 		(at 132.08 48.26 0)
@@ -19039,6 +18962,83 @@
 			(project "24-24-converter"
 				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
 					(reference "Ruvt1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2cdd371-48ab-4036-8095-06119b93eaf3")
+		(property "Reference" "#PWR035"
+			(at 46.99 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 51.308 36.576 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f75240d-4942-4516-9a8a-c56f7bd05c21")
+		)
+		(instances
+			(project "24-24-converter"
+				(path "/9e6f5c11-8bef-4e05-9856-b93512fc7502"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
