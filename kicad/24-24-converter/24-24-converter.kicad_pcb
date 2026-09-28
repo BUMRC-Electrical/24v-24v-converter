@@ -128,7 +128,7 @@
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
-			(usegerberattributes yes)
+			(usegerberattributes no)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
 			(dashed_line_dash_ratio 12)
@@ -155,9 +155,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerbers/")
 		)
 	)
 	(property "MRC_CONTRIBUTORS" "Bobby Styles")
@@ -12492,6 +12492,96 @@
 			)
 		)
 	)
+	(footprint "24V_Converter:Alignment Hole"
+		(layer "F.Cu")
+		(uuid "ba122def-77ee-4afe-b45f-dda68adbf192")
+		(at 75.8 103)
+		(property "Reference" "H6"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "9a084365-d777-41ee-8cc0-de7a2fde8518")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Alignment Hole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "08701646-6408-4624-8885-5835fa3ea753")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f982ffa-4373-49a6-9a36-e7849a97234b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8258ce67-234c-4299-b44a-93135c520147")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/f0caf792-26d9-41db-ad80-5afeb8954550")
+		(sheetname "/")
+		(sheetfile "24-24-converter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr smd exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "2e57a5cc-d7ae-4d50-9454-4a5e3f319d32")
+		)
+		(fp_circle
+			(center 0 0)
+			(end -5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "1693ae37-8022-4295-9c7c-c4c04c2dbd64")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "24V_Converter:Cin_50SVPF39M"
 		(layer "F.Cu")
 		(uuid "c090e7ad-8354-4801-8308-0bdf2e6fbc75")
@@ -16631,6 +16721,186 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "24V_Converter:Alignment Hole"
+		(layer "F.Cu")
+		(uuid "f7026a10-46b2-4833-97b1-dbe852a0143a")
+		(at 166.2 120.2)
+		(property "Reference" "H7"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b60b6c17-402c-4299-b9c0-362e74862f80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Alignment Hole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "675eb870-2131-4c59-8963-199ccda7cc46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c55f861-eb25-4ca8-863e-20106fd1c36f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faa40ba0-a866-4297-b812-d75eeb05cb85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/513149f9-60ea-41dc-a286-874c75030248")
+		(sheetname "/")
+		(sheetfile "24-24-converter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr smd exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "4c31b6b7-520d-4ed4-8291-0e77ca6c9f48")
+		)
+		(fp_circle
+			(center 0 0)
+			(end -5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "c51bd81b-65b5-4cca-9738-cb567a993fcc")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "24V_Converter:Alignment Hole"
+		(layer "F.Cu")
+		(uuid "fb209091-e798-4229-8d66-2b82d49569ab")
+		(at 183.4 59.6)
+		(property "Reference" "H5"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "34385c81-54af-4d89-9cdf-8c0198c0b42e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Alignment Hole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "9ab41e60-69cd-4250-8412-aadda46fb140")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3841323b-31e3-4b19-a54b-05c389925cde")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "136cdb2d-aeb2-423a-8c10-1400cbf4ce71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/8620058f-8952-40f4-baed-642d0baa45cb")
+		(sheetname "/")
+		(sheetfile "24-24-converter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr smd exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "e6628aa7-2347-4cac-8843-ef55e14d94a5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end -5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "56249789-f86e-4983-8785-261265e5f489")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
